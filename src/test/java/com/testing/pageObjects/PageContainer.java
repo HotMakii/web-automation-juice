@@ -30,6 +30,8 @@ public class PageContainer{
     pages.put("CHANGE_PASSWORD_PAGE", new ChangePasswordPage());
     pages.put("WALLET_PAGE", new WalletPage());
     pages.put("PAYMENT_WALLET_PAGE", new PaymentWalletPage());
+    pages.put("ORDER_SUMMARY_PAGE", new OrderSummaryPage());
+    pages.put("ORDER_COMPLETION_PAGE", new OrderCompletionPage());
   }
 
   public BasePage getPage(String page){

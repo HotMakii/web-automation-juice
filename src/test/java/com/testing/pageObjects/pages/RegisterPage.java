@@ -14,15 +14,15 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class RegisterPage extends TopMenuSection {
   // Locators
   // -------------------------------------------------------------------------------------------------------------------
-  public static By USER_REGISTRATION_TITLE;
-  public static By EMAIL_FIELD;
-  public static By PASSWORD_FIELD;
-  public static By REPEAT_PASSWORD_FIELD;
-  public static By SECURITY_QUESTION;
-  public static By NAME_OF_FAVORITE_PET_OPTION;
-  public static By SECURITY_QUESTION_LIST;
-  public static By SECURITY_ANSWER_FIELD;
-  public static By REGISTRATION_BUTTON;
+  public static By USER_REGISTRATION_TITLE =xpath("/html/body/app-root/div/mat-sidenav-container/mat-sidenav-content/app-register/div/mat-card/h1");
+  public static By EMAIL_FIELD =css("input[id='emailControl']");
+  public static By PASSWORD_FIELD =css("input[id='passwordControl']");
+  public static By REPEAT_PASSWORD_FIELD =css("input[id='repeatPasswordControl']");;
+  public static By SECURITY_QUESTION =css("mat-select[role=combobox]");
+  public static By NAME_OF_FAVORITE_PET_OPTION =css("mat-option[id='mat-option-12']");
+  public static By SECURITY_QUESTION_LIST =css("div[id^=mat-select][role=listbox]");
+  public static By SECURITY_ANSWER_FIELD =css("input[id=securityAnswerControl");
+  public static By REGISTRATION_BUTTON =css("button[id='registerButton']");
 
   // Public methods
   // -------------------------------------------------------------------------------------------------------------------

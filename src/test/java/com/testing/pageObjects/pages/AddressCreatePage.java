@@ -8,8 +8,8 @@ import net.thucydides.core.annotations.DefaultUrl;
 public class AddressCreatePage extends AddressSelectPage {
   // Locators
   // -------------------------------------------------------------------------------------------------------------------
-  public static By CREATE_AN_ADDRESS_TITLE;
-  public static By COUNTRY_FIELD;
+  public static By CREATE_AN_ADDRESS_TITLE =text("Add New address");
+  public static By COUNTRY_FIELD =css("input[id='mat-input-8']");
   public static By NAME_FIELD;
   public static By MOBILE_NUMBER_FIELD;
   public static By ZIP_CODE_FIELD;

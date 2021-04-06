@@ -16,17 +16,17 @@ public class HomePage extends TopMenuSection {
   public static By ALL_PRODUCTS_TITLE = text("All Products");
   public static By SIMPLE_SNACK_BAR_PAGE_RELOAD_BUTTON = css("simple-snack-bar button");
   public static By SIMPLE_SNACK_BAR = css("simple-snack-bar span");
-  public static By ITEMS_PER_PAGE;
-  public static By OPTION_24;
-  public static By BLOCK_NAME;
-  public static By ADD_TO_BASKET_BUTTON;
-  public static By PRODUCT_INFO_BLOCK;
-  public static By PRODUCT_INFO_PRICE;
-  public static By PRODUCT_INFO_CLOSE;
-  public static By REVIEWS_EXPAND;
-  public static By COMMENT_SECTION;
-  public static By REVIEW_TEXT_FIELD;
-  public static By SUBMIT_BUTTON;
+  public static By ITEMS_PER_PAGE = css("div[class^=mat-select-trigger]");
+  public static By OPTION_24 = css("mat-option[id=mat-option-1]");
+  public static By BLOCK_NAME = css("mat-grid-list>div>mat-grid-tile");
+  public static By ADD_TO_BASKET_BUTTON = css("button[aria-label='Add to Basket']");
+  public static By PRODUCT_INFO_BLOCK = css("mat-dialog-container");
+  public static By PRODUCT_INFO_PRICE = css("p[class=item-price]");
+  public static By PRODUCT_INFO_CLOSE = css("button[class*=close-dialog]");
+  public static By REVIEWS_EXPAND = css("span[class^=mat-expansion-indicator]");
+  public static By COMMENT_SECTION = css("div[class^=mat-expansion-panel-body]");
+  public static By REVIEW_TEXT_FIELD = css("textarea[placeholder='What did you like or dislike?']");
+  public static By SUBMIT_BUTTON = css("button[id=submitButton]");
 
   // Public methods ----------------------------------------------------------------------------------------------------
   public void waitForPageToLoad() {
