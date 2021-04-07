@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("/order-summary")
-public class OrderSummaryPage extends BasketPage {
+public class OrderSummaryPage extends BasePage {
   // Locators
   // -------------------------------------------------------------------------------------------------------------------
     public static By ORDER_SUMMARY_TITLE =text("Order Summary");
