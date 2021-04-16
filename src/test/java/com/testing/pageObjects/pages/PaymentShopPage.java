@@ -19,8 +19,8 @@ public class PaymentShopPage extends DeliveryMethodPage{
   public static By ADD_NEW_CARD_OPTION =css("mat-expansion-panel [role='button']");
   public static By CARD_NAME_FIELD =xpath("//*[@id='cdk-accordion-child-5']/div/div/mat-form-field[1]/div/div[1]/div[3]");
   public static By CARD_NUMBER_FIELD =css("input[id='mat-input-16']");
-  public static By EXPIRY_MONTH_FIELD =css("selectt[id='mat-input-17']");
-  public static By EXPIRY_YEAR_FIELD =css("selectt[id='mat-input-18']");
+  public static By EXPIRY_MONTH_FIELD =css("select[id='mat-input-17']");
+  public static By EXPIRY_YEAR_FIELD =css("select[id='mat-input-18']");
   // Public methods
   // -------------------------------------------------------------------------------------------------------------------
   public void waitForPageToLoad(){
